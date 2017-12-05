@@ -1,0 +1,32 @@
+<h3 style="color:green">Contact</h3>
+<div class="contactContainer">
+  <form name="contactForm" validation>
+    <!-- USERNAME -->
+    <div class="row">
+      <input type="text" name="name" data-ng-model="contactData.name"
+      placeholder="First Name:" data-ng-minlength="3" required/>
+      </div>
+      <div class="row">
+          <input type="text" name="name" data-ng-model="contactData.name"
+          placeholder="Last Name:" data-ng-minlength="3" required/>
+          </div>
+      <!-- USER EMAIL -->
+      <div class="row">
+          <input type="text" name="email" data-ng-model="contactData.email"
+          placeholder="name@email.com" data-ng-minlength="3" required/>
+          </div>
+          <!-- USER message -->
+          <div class="row">
+            <textarea data-ng-model="contactData.message" rows="4" id="inputmessage"
+            name="inputmessage" placeholder=""></textarea>
+              </div>
+              <div class="row">
+                <!-- USER submit -->
+                <input type="submit" data-ng-disabled="submitButtonDisabled"
+                data-ng-click="submitContactForm()"/>
+
+              </div>
+
+  </form>
+
+</div>

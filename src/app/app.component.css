@@ -1,0 +1,17 @@
+a {
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+    background-color:papayawhip;
+    color: red;
+
+}
+.main {
+    height: 250px;
+}
+#fullPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
